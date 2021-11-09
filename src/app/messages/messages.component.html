@@ -1,6 +1,7 @@
 <div class="container">
     <h2>MESSAGES</h2>
-    <ul class="messages" >
-        <li *ngFor = "let message of MessageService.messages">{{message}}</li>
-    </ul>
+    <div class="messages" >
+        <p *ngFor = "let message of MessageService.messages">{{message}}</p>
+    </div>
+    <button type="button" class="clear" (click) = "MessageService.clear()">Clear</button>
 </div>
