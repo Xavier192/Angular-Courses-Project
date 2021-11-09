@@ -1,1 +1,8 @@
-<p>dashboard works!</p>
+<div class="container dashboard">
+    <h1>Welcome to Courses</h1>
+    <div class="grid">
+        <div class="course" *ngFor="let course of courses">
+         <a routerLink= "/detail/{{course.id}}">{{course.name}}</a>   
+        </div>
+    </div>
+</div>
