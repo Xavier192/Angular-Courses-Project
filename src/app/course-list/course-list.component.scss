@@ -16,6 +16,10 @@
         }
     }
 
+    .selected{
+        background-color: $item-color-hover;
+    }
+
     &__id{
         padding:13.5px;
         border-radius: 10px 0 0 10px;
@@ -24,3 +28,4 @@
         margin-right:15px;
     }
 }
+
