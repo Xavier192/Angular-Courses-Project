@@ -1,0 +1,23 @@
+@import '../utilities.scss';
+@import '../variables.scss';
+
+label{
+    display:block;
+}
+
+.course__name-input{
+    padding:12px;
+    width:100%;
+    border:none;
+    background-color: $item-color;
+    margin-top:7px;
+}
+
+.details{
+    width:350px;
+    margin-top:20px;
+
+    h2{
+        margin:10px 0;
+    }
+}
