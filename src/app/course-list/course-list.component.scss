@@ -1,0 +1,26 @@
+@import '../variables';
+@import '../utilities.scss';
+
+.courses{
+    width:350px;
+    &__item{
+        padding:13.5px 0;
+        margin:12px 0;
+        background-color:$item-color;
+        border-radius:10px 0 0 10px;
+        transition:background-color .2s;
+        cursor:pointer;
+
+        &:hover{
+            background-color:$item-color-hover;
+        }
+    }
+
+    &__id{
+        padding:13.5px;
+        border-radius: 10px 0 0 10px;
+        background-color:$badge-color;
+        color:#fff;
+        margin-right:15px;
+    }
+}
