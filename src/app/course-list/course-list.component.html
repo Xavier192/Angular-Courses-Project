@@ -1,6 +1,12 @@
-<ul class="courses">
-    <li class="courses__item" *ngFor = "let course of courses" [class.selected] = "course === selectedCourse" (click) = "onSelect(course)">
-        <span class="courses__id">{{course.id}}</span>
-        <span class="courses__name">{{course.name}}</span>
-    </li>
-</ul>
+<div class="container">
+    <h2>Courses at edureka!</h2>
+    <ul class="courses">
+        <li class="courses__item" *ngFor = "let course of courses" [class.selected] = "course === selectedCourse" (click) = "onSelect(course)">
+            <span class="courses__id">{{course.id}}</span>
+            <span class="courses__name">{{course.name}}</span>
+        </li>
+    </ul>
+</div>
+
+
+<app-course-details [course] = "selectedCourse"></app-course-details>
