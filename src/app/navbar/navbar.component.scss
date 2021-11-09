@@ -1,0 +1,19 @@
+@import '../utilities';
+
+.navbar{
+    height:70px;
+    background-color:#2a2a2a;
+
+    &__menu{
+        display:flex;
+    }
+
+    &__item{
+        margin-left:25px;
+    }
+
+    &__logo{
+        font-size:22px;
+        font-weight: bold;
+    }
+}
